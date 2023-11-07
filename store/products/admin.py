@@ -13,7 +13,6 @@ class ProductAdmin(admin.ModelAdmin):
     ordering = ('name',)
 
 
-
 class BasketAdmin(admin.TabularInline):
     model = Basket
     fields = ('product', 'quantity', 'create_timestamp')
