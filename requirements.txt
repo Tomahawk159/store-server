@@ -2,3 +2,6 @@ Django==3.2.13
 Pillow==10.1.0
 psycopg2-binary==2.9.9
 django-allauth
+django-debug-toolbar
+django-redis
+celery[redis]
